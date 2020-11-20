@@ -1,12 +1,10 @@
-# Example app with MDX
+# Gsop docs
+
+avaliable at https://hungria.imd.ufrn.br/~gfaraujo/gsop-docs
+
+## Based on Example app with MDX
 
 This example shows using [MDX](https://github.com/mdx-js/mdx) as top level pages for your next.js app.
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-mdx)
 
 ## How to use
 
