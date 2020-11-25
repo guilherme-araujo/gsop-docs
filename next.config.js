@@ -3,5 +3,5 @@ const withMDX = require('@next/mdx')({
 })
 module.exports = withMDX({
   pageExtensions: ['js', 'jsx', 'mdx'],
-  basePath: '/~gfaraujo/gsop-docs'
+  basePath: process.env.NODE_ENV === 'development' ? '' : '/~gfaraujo/gsop-docs'
 })
