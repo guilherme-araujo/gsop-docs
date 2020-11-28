@@ -1,7 +1,51 @@
 import Link from 'next/link'  
+import { Tab, Tabs} from 'react-bootstrap'
 
 # 04-08
 
 <Link href='/'>voltar</Link>
 
 experimentos com grafo completo e regular
+
+Comparando os 3 grafos com alpha A 0.01 e alpha B 0.08, e o inverso no gamma:
+
+<Tabs>
+    <Tab eventKey='1' title='barabasi'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-08/boxplot-exp-ba.png"/>
+    </Tab>
+    <Tab eventKey='2' title='4-regular'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-08/boxplot-exp-simple.png"/>
+    </Tab>
+    <Tab eventKey='3' title='completo'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-08/boxplot-exp-complete.png"/>
+    </Tab>
+
+</Tabs>
+
+Valores de alpha 0.01 0.05 e 0.08 no alpha A e 0.08 0.05 0.01 no alpha B, e o inverso no gamma, para o grafo completo
+
+<Tabs>
+    <Tab eventKey='1' title='behavior% 0.01'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-08/boxplot-c10b1.png"/>
+    </Tab>
+    <Tab eventKey='2' title='behavior% 0.05'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-08/boxplot-c10b5.png"/>
+    </Tab>
+    <Tab eventKey='3' title='behavior% 0.08'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-08/boxplot-c10b8.png"/>
+    </Tab>
+</Tabs>
+
+Valores de alpha 0.01 0.05 e 0.08 no alpha A e 0.08 0.05 0.01 no alpha B, e o inverso no gamma, para o grafo regular (grau?)
+
+<Tabs>
+    <Tab eventKey='1' title='behavior% 0.01'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-08/boxplot-r10b1.png"/>
+    </Tab>
+    <Tab eventKey='2' title='behavior% 0.05'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-08/boxplot-r10b5.png"/>
+    </Tab>
+    <Tab eventKey='3' title='behavior% 0.08'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-08/boxplot-r10b8.png"/>
+    </Tab>
+</Tabs>
