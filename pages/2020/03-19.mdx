@@ -1,4 +1,5 @@
 import Link from 'next/link'  
+import { Tab, Tabs} from 'react-bootstrap'
 
 # 03-19
 
@@ -6,3 +7,49 @@ import Link from 'next/link'
 
 https://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/
 variando proporções iniciais dos experimentos
+
+Com 5% iniciando em using e 5% em using shared
+
+<Tabs>
+    <Tab eventKey='1' title='behavior% 0.01'>
+        <img src="http://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/behavior-5-1.png"/>
+    </Tab>
+    <Tab eventKey='2' title='behavior% 0.05'>
+        <img src="http://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/behavior-5-5.png"/>
+    </Tab>
+    <Tab eventKey='3' title='behavior% 0.08'>
+        <img src="http://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/behavior-5-8.png"/>
+    </Tab>
+    <Tab eventKey='4' title='fix% 0.01'>
+        <img src="http://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/boxplot-sh5b1.png"/>
+    </Tab>
+    <Tab eventKey='5' title='fix% 0.05'>
+        <img src="http://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/boxplot-sh5b5.png"/>
+    </Tab>
+    <Tab eventKey='6' title='fix% 0.08'>
+        <img src="http://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/boxplot-sh5b8.png"/>
+    </Tab>
+</Tabs>
+
+Com 10% iniciando em using e 10% em using shared
+
+<Tabs>
+    <Tab eventKey='1' title='behavior% 0.01'>
+        <img src="http://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/behavior-10-1.png"/>
+    </Tab>
+    <Tab eventKey='2' title='behavior% 0.05'>
+        <img src="http://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/behavior-10-5.png"/>
+    </Tab>
+    <Tab eventKey='3' title='behavior% 0.08'>
+        <img src="http://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/behavior-10-8.png"/>
+    </Tab>
+    <Tab eventKey='4' title='fix% 0.01'>
+        <img src="http://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/boxplot-sh10b1.png"/>
+    </Tab>
+    <Tab eventKey='5' title='fix% 0.05'>
+        <img src="http://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/boxplot-sh10b5.png"/>
+    </Tab>
+    <Tab eventKey='6' title='fix% 0.08'>
+        <img src="http://hungria.imd.ufrn.br/~gfaraujo/exp-03-19/boxplot-sh10b8.png"/>
+    </Tab>
+</Tabs>
