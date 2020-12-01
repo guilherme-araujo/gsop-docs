@@ -1,7 +1,62 @@
 import Link from 'next/link'  
+import { Tab, Tabs} from 'react-bootstrap'
 
 # 04-22
 
 <Link href='/'>voltar</Link>
 
 grafos barabasi e regular de densidades diferentes
+alpha A 0.01 e 0.08, alpha B 0.08 e 0.01, e gamma com o valor inverso
+
+barabasi
+
+<Tabs>
+    <Tab eventKey='1' title='1-barabasi alpha-A-0.01'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-b1b1.png"/>
+    </Tab>
+    <Tab eventKey='2' title='1-barabasi alpha-A-0.08'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-b1b8.png"/>
+    </Tab>
+    <Tab eventKey='3' title='2-barabasi alpha-A-0.01'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-b2b1.png"/>
+    </Tab>
+    <Tab eventKey='4' title='2-barabasi alpha-A-0.08'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-b2b8.png"/>
+    </Tab>
+    <Tab eventKey='5' title='3-barabasi alpha-A-0.01'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-b3b1.png"/>
+    </Tab>
+    <Tab eventKey='6' title='3-barabasi alpha-A-0.08'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-b3b8.png"/>
+    </Tab>
+    <Tab eventKey='7' title='8-barabasi alpha-A-0.01'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-b8b1.png"/>
+    </Tab>
+    <Tab eventKey='8' title='8-barabasi alpha-A-0.08'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-b8b8.png"/>
+    </Tab>
+</Tabs>
+
+
+regular
+
+<Tabs>
+    <Tab eventKey='1' title='2-regular alpha-A-0.01'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-r2b1.png"/>
+    </Tab>
+    <Tab eventKey='2' title='2-regular alpha-A-0.08'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-r2b8.png"/>
+    </Tab>
+    <Tab eventKey='3' title='8-regular alpha-A-0.01'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-r8b1.png"/>
+    </Tab>
+    <Tab eventKey='4' title='8-regular alpha-A-0.08'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-r8b8.png"/>
+    </Tab>
+    <Tab eventKey='5' title='16-regular alpha-A-0.01'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-r16b1.png"/>
+    </Tab>
+    <Tab eventKey='6' title='16-regular alpha-A-0.08'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/04-22/boxplot-r16b8.png"/>
+    </Tab>
+</Tabs>
