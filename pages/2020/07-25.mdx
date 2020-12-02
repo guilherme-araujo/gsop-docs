@@ -1,7 +1,32 @@
 import Link from 'next/link'  
+import { Tab, Tabs} from 'react-bootstrap'
 
 # 07-25
 
 <Link href='/'>voltar</Link>
 
-50% de cheaters? verificar resultados, nunca foi feito o gráfico
+50% de cheaters e 10% de cheaters, verificando as % de nós cheater a cada passo da simulação
+Acho que merece uma investigação posterior, para verificar se está havendo uma estagnação na quantidade de cheaters - emobra nos lineplots seja só uma média. Ao verificar os boxplots, percebe-se que há uma variação.
+
+iniciando com 50%
+
+<Tabs>
+    <Tab eventKey='1' title='lineplot-50%'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/07-25/lineplot-50p.png"/>
+    </Tab>
+    <Tab eventKey='2' title='boxplot-50%'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/07-25/boxplot50p.png"/>
+    </Tab>
+</Tabs>
+
+
+iniciando com 10%
+
+<Tabs>
+    <Tab eventKey='1' title='lineplot-10%'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/07-25/lineplot-10p.png"/>
+    </Tab>
+    <Tab eventKey='2' title='boxplot-10%'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/07-25/boxplot10p.png"/>
+    </Tab>
+</Tabs>

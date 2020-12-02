@@ -1,8 +1,29 @@
 import Link from 'next/link'  
+import { Tab, Tabs} from 'react-bootstrap'
 
 # article-nov2
 
 <Link href='/'>voltar</Link>
 
-erdos-renyi com numedges=0.02. 
+erdos-renyi com numedges=0.02. Esse valor foi escolhido por ser o mínimo que gera com boa probabilidade um grafo conexo, e ainda assim com densidade similar ao barabasi que estávamos utilizando anteriormente.
+
 100 rodadas, sem limite de ciclos, 500 nós
+
+fixação intermediária entre o barabasi e o watts-storgatz
+
+assim como o anterior, figura 4b com resultado invertido. aparentemente o alpha importa mais aqui em relação ao gamma.
+
+<Tabs>
+    <Tab eventKey='1' title='figura 2a'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-nov-2/lineplot-ex1.png"/>
+    </Tab>
+    <Tab eventKey='2' title='figura 2b'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-nov-2/lineplot-ex2.png"/>
+    </Tab>
+    <Tab eventKey='3' title='figura 4a'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-nov-2/lineplot-wawb2.png"/>
+    </Tab>
+    <Tab eventKey='4' title='figura 4b'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-nov-2/lineplot-4b.png"/>
+    </Tab>
+</Tabs>

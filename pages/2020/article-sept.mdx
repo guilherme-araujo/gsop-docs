@@ -1,4 +1,5 @@
 import Link from 'next/link'  
+import { Tab, Tabs} from 'react-bootstrap'
 
 # article-sept
 
@@ -6,3 +7,25 @@ import Link from 'next/link'
 
 barabasi com numedges=1. de acordo com o esperado, mas diferenças mais suaves
 100 rodadas, sem limite de ciclos, 200 nós
+
+* Na figura 2b: houve um erro e no ponto 0.11 o grafo barabasi é de 4 arestas. Isso ajuda a visualizar como supostamente um grafo mais denso favorece a fixação
+
+* Verificar o "as original" da versão diferente da figura 4b. Mas pelos scripts que tenho salvo aqui, os 2 são iguais
+
+<Tabs>
+    <Tab eventKey='1' title='figura 2a'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-sept/lineplot-ex1.png"/>
+    </Tab>
+    <Tab eventKey='2' title='figura 2b'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-sept/lineplot-ex2.png"/>
+    </Tab>
+    <Tab eventKey='3' title='figura 4a'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-sept/lineplot-wawb2.png"/>
+    </Tab>
+    <Tab eventKey='4' title='figura 4b'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-sept/lineplot-4b.png"/>
+    </Tab>
+    <Tab eventKey='5' title='figura 4b-original'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-sept/lineplot-4b-as-original.png"/>
+    </Tab>
+</Tabs>

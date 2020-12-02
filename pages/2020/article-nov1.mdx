@@ -1,8 +1,29 @@
-import Link from 'next/link'  
+import Link from 'next/link' 
+import { Tab, Tabs} from 'react-bootstrap' 
 
 # article-nov1
 
 <Link href='/'>voltar</Link>
 
-watts-storgatz com numedges=4. 
+watts-storgatz com numedges=4 e p=0.2 (probabilidade de rewiring)
+
 100 rodadas, sem limite de ciclos, 500 nós
+
+curiosamente, esse grafo favorece a fixação mais do que o grafo regular. É curioso por que a densidade do grafo teoricamente é a mesma do grafo regular de 4 arestas!
+
+figura 4b com resultado invertido. aparentemente o alpha importa mais aqui em relação ao gamma.
+
+<Tabs>
+    <Tab eventKey='1' title='figura 2a'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-nov-1/lineplot-ex1.png"/>
+    </Tab>
+    <Tab eventKey='2' title='figura 2b'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-nov-1/lineplot-ex2.png"/>
+    </Tab>
+    <Tab eventKey='3' title='figura 4a'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-nov-1/lineplot-wawb2.png"/>
+    </Tab>
+    <Tab eventKey='4' title='figura 4b'>
+        <img src="https://hungria.imd.ufrn.br/~gfaraujo/article-nov-1/lineplot-4b.png"/>
+    </Tab>
+</Tabs>
