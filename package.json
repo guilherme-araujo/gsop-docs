@@ -10,10 +10,10 @@
     "@mdx-js/loader": "^1.5.1",
     "@mdx-js/react": "^1.6.21",
     "@next/mdx": "^9.1.1",
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^4.6",
     "next": "latest",
     "react": "^16.8.6",
-    "react-bootstrap": "^1.4.0",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^16.8.6"
   },
   "license": "MIT"
