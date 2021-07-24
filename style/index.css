@@ -40,13 +40,30 @@
   height: 60px;
   width: 800px;
   display: flex;
+}
 
+#blinev-20210528 {
+  position: absolute;
+  top: 116px;
+  left: 100px;
+  height: 800px;
+  width: 62px;
+  display: flex;
+  flex-direction: column;
 }
 
 .bitem-20210528 {
   position: relative;
   width: 79.5px;
   height: 60px;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.bitemv-20210528 {
+  position: relative;
+  width: 62px;
+  height: 123px;
   border: 1px solid red;
   cursor: pointer;
 }
